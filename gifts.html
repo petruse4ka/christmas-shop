@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Christmas Shop – an online store for Christmas ornaments and holiday decor. Discover unique Christmas decorations, handmade ornaments, and accessories to create a cozy and magical holiday atmosphere."
+    />
+    <meta
+      name="keywords"
+      content="Christmas Shop, Christmas ornaments, holiday decorations, Christmas decor, Christmas store, holiday accessories, Christmas gifts, unique ornaments, handmade decorations, Christmas shopping"
+    />
+    <meta name="author" content="Konstantin Petrov" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="images/favicons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="images/favicons/favicon-16x16.png"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Allura&display=swap"
+      rel="stylesheet"
+    />
+    <title>Magical Gifts | Christmas Shop by Konstantin Petrov</title>
+  </head>
+  <body class="body">
+    <header class="header">
+      <div class="header__container">
+        <a class="header__homepage-link" href="index.html">
+          <div class="header__logo">
+            <img
+              class="header__logo-icon"
+              src="images/icons/logo.png"
+              alt="Image of a snowflake that is part of the logo"
+              width="24"
+              height="24"
+            />
+            <span class="header__logo-text action_small">The Gifts</span>
+          </div>
+        </a>
+        <nav class="header__menu">
+          <ul class="header__list">
+            <li class="header__item">
+              <a
+                class="header__link active action_small"
+                href="noscroll"
+                onclick="return false;"
+                >Gifts</a
+              >
+            </li>
+            <li class="header__item">
+              <a class="header__link action_small" href="index.html#about"
+                >About</a
+              >
+            </li>
+            <li class="header__item">
+              <a class="header__link action_small" href="index.html#best"
+                >Best</a
+              >
+            </li>
+            <li class="header__item">
+              <a class="header__link action_small" href="#contacts">Contacts</a>
+            </li>
+          </ul>
+          <button class="header__burger-menu">
+            <span class="header__burger-icon1"></span>
+            <span class="header__burger-icon2"></span>
+          </button>
+        </nav>
+      </div>
+    </header>
+    <main class="main">
+      <section class="gifts" id="gifts">
+        <div class="gifts__container">
+          <div class="gifts__title-container">
+            <h1 class="gifts__title">
+              Achieve health, harmony, and inner strength
+            </h1>
+          </div>
+          <ul class="gifts__tabs-list">
+            <li class="gifts__tabs-item active">
+              <input
+                type="radio"
+                id="all"
+                value="all"
+                class="gifts__tabs-radio"
+                name="gifts_tab"
+                checked
+              />
+              <label for="all" class="gifts__tabs-text action_small" title="All"
+                >All</label
+              >
+            </li>
+            <li class="gifts__tabs-item">
+              <input
+                type="radio"
+                id="work"
+                value="work"
+                class="gifts__tabs-radio"
+                name="gifts_tab"
+              />
+              <label
+                for="work"
+                class="gifts__tabs-text action_small"
+                title="For work"
+                >For work</label
+              >
+            </li>
+            <li class="gifts__tabs-item">
+              <input
+                type="radio"
+                id="health"
+                value="health"
+                class="gifts__tabs-radio"
+                name="gifts_tab"
+              />
+              <label
+                for="health"
+                class="gifts__tabs-text action_small"
+                title="For health"
+                >For health</label
+              >
+            </li>
+            <li class="gifts__tabs-item">
+              <input
+                type="radio"
+                id="harmony"
+                value="harmony"
+                class="gifts__tabs-radio"
+                name="gifts_tab"
+              />
+              <label
+                for="harmony"
+                class="gifts__tabs-text action_small"
+                title="For harmony"
+                >For harmony</label
+              >
+            </li>
+          </ul>
+          <ul class="gifts__list"></ul>
+        </div>
+      </section>
+      <dialog class="modal__gifts">
+        <div class="modal__gifts-container">
+          <div class="modal__image-container"></div>
+          <div class="modal__content-container">
+            <div class="modal__description-container"></div>
+            <div class="modal__details-container">
+              <h4 class="modal__description-subtitle">Adds superpowers to:</h4>
+              <ul class="modal__description-list">
+                <li class="modal__description-item" id="live"></li>
+                <li class="modal__description-item" id="create"></li>
+                <li class="modal__description-item" id="love"></li>
+                <li class="modal__description-item" id="dream"></li>
+              </ul>
+            </div>
+          </div>
+          <button class="modal__close-button">
+            <span class="modal__close-button-icon1"></span>
+            <span class="modal__close-button-icon2"></span>
+          </button>
+        </div>
+      </dialog>
+      <button class="button-up"></button>
+    </main>
+    <footer class="footer" id="contacts">
+      <div class="footer__container">
+        <ul class="footer__contacts-list">
+          <li class="footer__contacts-item">
+            <a class="footer__contacts-detail-link" href="tel:+375291112233">
+              <span class="footer__contacts-icon santa"></span>
+              <span class="footer__contacts-detail action_large"
+                >+375 (29) 111-22-33</span
+              >
+              <h3 class="footer__contacts-title">Call us</h3>
+            </a>
+          </li>
+          <li class="footer__contacts-item">
+            <a
+              class="footer__contacts-detail-link"
+              href="https://maps.app.goo.gl/3Ytmr56ZRXnFtQAy7"
+              target="_blank"
+            >
+              <span class="footer__contacts-icon tree"></span>
+              <span class="footer__contacts-detail action_large"
+                >Magic Forest</span
+              >
+              <h3 class="footer__contacts-title">Meet us</h3>
+            </a>
+          </li>
+          <li class="footer__contacts-item">
+            <a
+              class="footer__contacts-detail-link"
+              href="mailto:gifts@magic.com"
+            >
+              <span class="footer__contacts-icon snake"></span>
+              <span class="footer__contacts-detail action_large"
+                >Gifts@magic.com</span
+              >
+              <h3 class="footer__contacts-title">Write us</h3>
+            </a>
+          </li>
+        </ul>
+        <div class="footer__socials-container">
+          <ul class="footer__socials-list">
+            <li class="footer__socials-item">
+              <a
+                class="footer__socials-link"
+                href="https://telegram.org/"
+                target="_blank"
+              >
+                <span class="footer__socials-icon telegram"></span>
+              </a>
+            </li>
+            <li class="footer__socials-item">
+              <a
+                class="footer__socials-link"
+                href="https://www.facebook.com/"
+                target="_blank"
+              >
+                <span class="footer__socials-icon facebook"></span>
+              </a>
+            </li>
+            <li class="footer__socials-item">
+              <a
+                class="footer__socials-link"
+                href="https://www.instagram.com/"
+                target="_blank"
+              >
+                <span class="footer__socials-icon instagram"></span>
+              </a>
+            </li>
+            <li class="footer__socials-item">
+              <a
+                class="footer__socials-link"
+                href="https://x.com/"
+                target="_blank"
+              >
+                <span class="footer__socials-icon twitter"></span>
+              </a>
+            </li>
+          </ul>
+          <p class="footer__copyright">© Copyright 2025, All Rights Reserved</p>
+          <a
+            class="footer__caption-link"
+            href="https://rs.school/"
+            target="_blank"
+          >
+            <p class="footer__caption caption">Made in Rolling Scopes School</p>
+          </a>
+        </div>
+      </div>
+    </footer>
+    <script type="module" src="js/gifts_page.js"></script>
+  </body>
+</html>

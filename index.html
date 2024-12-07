@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Christmas Shop – an online store for Christmas ornaments and holiday decor. Discover unique Christmas decorations, handmade ornaments, and accessories to create a cozy and magical holiday atmosphere."
+    />
+    <meta
+      name="keywords"
+      content="Christmas Shop, Christmas ornaments, holiday decorations, Christmas decor, Christmas store, holiday accessories, Christmas gifts, unique ornaments, handmade decorations, Christmas shopping"
+    />
+    <meta name="author" content="Konstantin Petrov" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="images/favicons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="images/favicons/favicon-16x16.png"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Allura&display=swap"
+      rel="stylesheet"
+    />
+    <title>Christmas Shop by Konstantin Petrov</title>
+  </head>
+  <body class="body">
+    <header class="header">
+      <div class="header__container">
+        <a class="header__homepage-link" href="index.html">
+          <div class="header__logo">
+            <img
+              class="header__logo-icon"
+              src="images/icons/logo.png"
+              alt="Image of a snowflake that is part of the logo"
+              width="24"
+              height="24"
+            />
+            <span class="header__logo-text action_small">The Gifts</span>
+          </div>
+        </a>
+        <nav class="header__menu">
+          <ul class="header__list">
+            <li class="header__item">
+              <a class="header__link action_small" href="gifts.html">Gifts</a>
+            </li>
+            <li class="header__item">
+              <a class="header__link action_small" href="#about">About</a>
+            </li>
+            <li class="header__item">
+              <a class="header__link action_small" href="#best">Best</a>
+            </li>
+            <li class="header__item">
+              <a class="header__link action_small" href="#contacts">Contacts</a>
+            </li>
+          </ul>
+          <button class="header__burger-menu">
+            <span class="header__burger-icon1"></span>
+            <span class="header__burger-icon2"></span>
+          </button>
+        </nav>
+      </div>
+    </header>
+    <main class="main">
+      <section class="hero" id="hero">
+        <div class="hero__container">
+          <div class="hero__content">
+            <p class="hero__caption caption">Merry Christmas</p>
+            <h1 class="hero__title">
+              Gift yourself the magic of new possibilities
+            </h1>
+            <a class="button hero__button action_small" href="gifts.html"
+              >Explore Magical Gifts</a
+            >
+            <p class="hero__caption caption">and Happy New Year</p>
+          </div>
+        </div>
+      </section>
+      <article class="about" id="about">
+        <div class="about__container">
+          <div class="about__content">
+            <div class="about__content-container">
+              <p class="about__caption caption">About</p>
+              <h2 class="about__title">Unleash your inner superhero!</h2>
+              <p class="about__paragraph">
+                This New Year marks the beginning of your journey to inner
+                harmony and new strengths. We offer unique gifts that will help
+                you improve your life.
+              </p>
+            </div>
+          </div>
+          <div class="about__illustration">
+            <img
+              class="about__illustration-image"
+              src="images/santa.jpg"
+              alt="Santa and a Snowman looking at each other standing in front of the Christmas tree"
+              width="638"
+              height="528"
+            />
+          </div>
+        </div>
+      </article>
+      <section class="slider" id="slider">
+        <div class="slider__container">
+          <div class="slider__header">
+            <p class="slider__caption caption">Become Happier!</p>
+            <h2 class="slider__title">in the new 2025</h2>
+          </div>
+          <div class="slider__row">
+            <ul class="slider__list">
+              <li class="slider__item">
+                <span class="slider__text">Live</span>
+                <div class="slider__image-container">
+                  <img
+                    class="slider__image"
+                    src="images/slider/snowman.png"
+                    alt="Snowman holding christmas sweets in front of a vibrant Christmas background full of Christmas lights"
+                    width="200"
+                    height="200"
+                  />
+                </div>
+              </li>
+              <li class="slider__item">
+                <span class="slider__text">Create</span>
+                <div class="slider__image-container">
+                  <img
+                    class="slider__image"
+                    src="images/slider/christmas-trees.png"
+                    alt="Christmas presents under the Christmas tree with candles and Christmas lights"
+                    width="200"
+                    height="200"
+                  />
+                </div>
+              </li>
+              <li class="slider__item">
+                <span class="slider__text">Love</span>
+                <div class="slider__image-container">
+                  <img
+                    class="slider__image"
+                    src="images/slider/christmas-tree-ball.png"
+                    alt="A miniature of a small wintery village inside a transparent Christmas tree decoration"
+                    width="200"
+                    height="200"
+                  />
+                </div>
+              </li>
+              <li class="slider__item">
+                <span class="slider__text">Dream</span>
+                <div class="slider__image-container">
+                  <img
+                    class="slider__image"
+                    src="images/slider/fairytale-house.png"
+                    alt="A road towards the fairytale house in the wintery condition with Christmas trees and Christmas sweets on the sides"
+                    width="200"
+                    height="200"
+                  />
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="slider__navigation">
+            <button class="slider__button" id="slideLeft">🡠</button>
+            <button class="slider__button" id="slideRight">🡢</button>
+          </div>
+        </div>
+      </section>
+      <section class="best" id="best">
+        <div class="best__container">
+          <div class="best__header">
+            <p class="best__caption caption">Best Gifts</p>
+            <h2 class="best__title">Especially for you</h2>
+          </div>
+          <ul class="best__list"></ul>
+        </div>
+      </section>
+      <section class="cta" id="cta">
+        <div class="cta__container">
+          <div class="cta__content">
+            <h2 class="cta__title">
+              Ready to start your journey to a better version of yourself?
+            </h2>
+            <a class="button cta__button action_small" href="gifts.html"
+              >Explore Magical Gifts</a
+            >
+            <div class="cta__timer-container">
+              <p class="cta__caption caption">The New Year is Coming Soon...</p>
+              <div class="cta__timer">
+                <div class="cta__timer-section">
+                  <h2 class="cta__timer-number" id="days"></h2>
+                  <h4 class="cta__timer-period">days</h4>
+                </div>
+                <div class="cta__timer-section">
+                  <h2 class="cta__timer-number" id="hours"></h2>
+                  <h4 class="cta__timer-period">hours</h4>
+                </div>
+                <div class="cta__timer-section">
+                  <h2 class="cta__timer-number" id="minutes"></h2>
+                  <h4 class="cta__timer-period">minutes</h4>
+                </div>
+                <div class="cta__timer-section">
+                  <h2 class="cta__timer-number" id="seconds"></h2>
+                  <h4 class="cta__timer-period">seconds</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <dialog class="modal__gifts">
+        <div class="modal__gifts-container">
+          <div class="modal__image-container"></div>
+          <div class="modal__content-container">
+            <div class="modal__description-container"></div>
+            <div class="modal__details-container">
+              <h4 class="modal__description-subtitle">Adds superpowers to:</h4>
+              <ul class="modal__description-list">
+                <li class="modal__description-item" id="live"></li>
+                <li class="modal__description-item" id="create"></li>
+                <li class="modal__description-item" id="love"></li>
+                <li class="modal__description-item" id="dream"></li>
+              </ul>
+            </div>
+          </div>
+          <button class="modal__close-button">
+            <span class="modal__close-button-icon1"></span>
+            <span class="modal__close-button-icon2"></span>
+          </button>
+        </div>
+      </dialog>
+    </main>
+    <footer class="footer" id="contacts">
+      <div class="footer__container">
+        <ul class="footer__contacts-list">
+          <li class="footer__contacts-item">
+            <a class="footer__contacts-detail-link" href="tel:+375291112233">
+              <span class="footer__contacts-icon santa"></span>
+              <span class="footer__contacts-detail action_large"
+                >+375 (29) 111-22-33</span
+              >
+              <h3 class="footer__contacts-title">Call us</h3>
+            </a>
+          </li>
+          <li class="footer__contacts-item">
+            <a
+              class="footer__contacts-detail-link"
+              href="https://maps.app.goo.gl/3Ytmr56ZRXnFtQAy7"
+              target="_blank"
+            >
+              <span class="footer__contacts-icon tree"></span>
+              <span class="footer__contacts-detail action_large"
+                >Magic Forest</span
+              >
+              <h3 class="footer__contacts-title">Meet us</h3>
+            </a>
+          </li>
+          <li class="footer__contacts-item">
+            <a
+              class="footer__contacts-detail-link"
+              href="mailto:gifts@magic.com"
+            >
+              <span class="footer__contacts-icon snake"></span>
+              <span class="footer__contacts-detail action_large"
+                >Gifts@magic.com</span
+              >
+              <h3 class="footer__contacts-title">Write us</h3>
+            </a>
+          </li>
+        </ul>
+        <div class="footer__socials-container">
+          <ul class="footer__socials-list">
+            <li class="footer__socials-item">
+              <a
+                class="footer__socials-link"
+                href="https://telegram.org/"
+                target="_blank"
+              >
+                <span class="footer__socials-icon telegram"></span>
+              </a>
+            </li>
+            <li class="footer__socials-item">
+              <a
+                class="footer__socials-link"
+                href="https://www.facebook.com/"
+                target="_blank"
+              >
+                <span class="footer__socials-icon facebook"></span>
+              </a>
+            </li>
+            <li class="footer__socials-item">
+              <a
+                class="footer__socials-link"
+                href="https://www.instagram.com/"
+                target="_blank"
+              >
+                <span class="footer__socials-icon instagram"></span>
+              </a>
+            </li>
+            <li class="footer__socials-item">
+              <a
+                class="footer__socials-link"
+                href="https://x.com/"
+                target="_blank"
+              >
+                <span class="footer__socials-icon twitter"></span>
+              </a>
+            </li>
+          </ul>
+          <p class="footer__copyright">© Copyright 2025, All Rights Reserved</p>
+          <a
+            class="footer__caption-link"
+            href="https://rs.school/"
+            target="_blank"
+          >
+            <p class="footer__caption caption">Made in Rolling Scopes School</p>
+          </a>
+        </div>
+      </div>
+    </footer>
+    <script type="module" src="js/main_page.js"></script>
+  </body>
+</html>
